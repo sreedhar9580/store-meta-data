@@ -70,7 +70,7 @@ public class FileReadWriteController {
 		List<Employee> employee = (List<Employee>) employeeRepository.findAll();
 		
 		try {
-			FileOutputStream f = new FileOutputStream(new File("myObjects.txt"));
+			FileOutputStream f = new FileOutputStream(new File("Employee.txt"));
 			ObjectOutputStream objOutStr = new ObjectOutputStream(f);
 
 			// Write objects to file
