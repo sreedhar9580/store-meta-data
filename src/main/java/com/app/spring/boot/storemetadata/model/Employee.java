@@ -6,7 +6,6 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-import autovalue.shaded.org.apache.commons.lang.builder.ToStringBuilder;
 
 @Entity
 public class Employee implements Serializable {
