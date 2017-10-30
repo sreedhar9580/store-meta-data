@@ -8,7 +8,7 @@ mvn spring-boot:run
 
 # Sample Request
 
-create a Json file with below data
+1. create a Json file with below data
 {
   "id": 1212,
   "name": "Sid",
@@ -16,6 +16,6 @@ create a Json file with below data
   "salary": 200,
   "designation": "Developer"
 }
-open browser with http://localhost:8080/
-Input the above saved Json file and click Submit button.
-There will be Employee.txt file created int the main root.
+2. open browser with http://localhost:8080/
+3. Input the above saved Json file and click Submit button.
+4. There will be Employee.txt file created int the main root.
